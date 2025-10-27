@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Cinematic UI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.black-bar {
+				user-select: none;
+				display: block;
+				position: absolute;
+				height: 15vh;
+				width: 100vw;
+				background-color: black;
+				z-index: 999;
+			}
+
+			#top-black-bar {
+				top: 0;
+			}
+
+			#bottom-black-bar {
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="top-black-bar" class="black-bar"></div>
+		<div id="bottom-black-bar" class="black-bar"></div>
+	</body>
+</html>

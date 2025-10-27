@@ -1,0 +1,52 @@
+const _0x3bcf61 = _0x8b6a;
+function _0x308f() {
+    const _0x375082 = [
+        'data', 'message', 'bank-amount', '46936teNgbg', '343850vbemLh',
+        '3892RTmOXU', '5kRbByA', 'getElementById', 'addEventListener',
+        'cash-amount', '4278UYJATP', '183226LklZTq', '2897680bJMdHs',
+        'textContent', '661254qHykCu', 'type', 'dirty', 'dirty-amount',
+        'bank', 'cash', 'toLocaleString', 'updateHUD', '3521385iqEJdr'
+    ];
+    _0x308f = function () {
+        return _0x375082;
+    };
+    return _0x308f();
+}
+function _0x8b6a(_0x2750ac, _0x326d36) {
+    const _0x308f01 = _0x308f();
+    return _0x8b6a = function (_0x8b6a30, _0x1223fa) {
+        _0x8b6a30 = _0x8b6a30 - 0x12c;
+        let _0x168311 = _0x308f01[_0x8b6a30];
+        return _0x168311;
+    }, _0x8b6a(_0x2750ac, _0x326d36);
+}
+
+(function (_0x2b2d04, _0x3a1793) {
+    const _0x403fff = _0x8b6a, _0xe5b19f = _0x2b2d04();
+    while (!![]) {
+        try {
+            const _0x4bacd9 = parseInt(_0x403fff(0x13e)) / 0x1 +
+                parseInt(_0x403fff(0x137)) / 0x2 +
+                parseInt(_0x403fff(0x141)) / 0x3 +
+                parseInt(_0x403fff(0x136)) / 0x4 * (parseInt(_0x403fff(0x139)) / 0x5) +
+                -parseInt(_0x403fff(0x13d)) / 0x6 * (-parseInt(_0x403fff(0x138)) / 0x7) +
+                -parseInt(_0x403fff(0x13f)) / 0x8 +
+                -parseInt(_0x403fff(0x132)) / 0x9;
+            if (_0x4bacd9 === _0x3a1793) break;
+            else _0xe5b19f['push'](_0xe5b19f['shift']());
+        } catch (_0x1c7d05) {
+            _0xe5b19f['push'](_0xe5b19f['shift']());
+        }
+    }
+}(_0x308f, 0x38370), 
+window[_0x3bcf61(0x13b)](_0x3bcf61(0x134), _0x2a92bc => {
+    const _0x48be88 = _0x3bcf61, _0xf555f7 = _0x2a92bc[_0x48be88(0x133)];
+
+   
+
+    if (_0xf555f7[_0x48be88(0x142)] === _0x48be88(0x131)) {
+        document[_0x48be88(0x13a)](_0x48be88(0x12d))[_0x48be88(0x140)] = '$' + _0xf555f7[_0x48be88(0x12c)][_0x48be88(0x130)]();
+        document[_0x48be88(0x13a)](_0x48be88(0x13c))[_0x48be88(0x140)] = '$' + _0xf555f7[_0x48be88(0x12f)][_0x48be88(0x130)]();
+        document['getElementById'](_0x48be88(0x135))['textContent'] = '$' + _0xf555f7[_0x48be88(0x12e)][_0x48be88(0x130)]();
+    }
+}));

@@ -1,0 +1,15 @@
+exports['putin-dialog']:showDialog(
+    'unique_dialog_name', 
+    'Montant à prendre', 
+    '0', 
+    10, 
+    'recktification66k', 
+    function(data)
+        ESX.ShowNotification("Vous avez pris "..data.."")
+    end, 
+    function()
+        ESX.ShowNotification("Vous avez annulé l'action")
+    end, 
+    false, 
+    true
+)

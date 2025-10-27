@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom HUD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div id="hud-container" class="hud-container">
+        <div class="hud-header">
+            <div class="hud-title">
+                <h1>KORONA RP</h1>
+                <p>DISCORD.GG/KORONARP</p>
+            </div>
+            <img src="logo.png" alt="Dynasty Logo" class="hud-logo" />
+        </div>
+
+        <!-- Argent Sale -->
+        <div id="dirty-display" class="hud-item">
+            <span class="hud-text" id="dirty-amount">$1,500</span>
+            <div class="icon-circle">
+                <img src="images/mask.svg" alt="Mask Icon" class="icon-img">
+            </div>
+        </div>
+
+        <!-- Liquide -->
+        <div id="cash-display" class="hud-item">
+            <span class="hud-text" id="cash-amount">$3,000</span>
+            <div class="icon-circle">
+                <img src="images/wallet.svg" alt="Wallet Icon" class="icon-img">
+            </div>
+        </div>
+
+        <!-- Banque -->
+        <div id="bank-display" class="hud-item">
+            <span class="hud-text" id="bank-amount">$23,000</span>
+            <div class="icon-circle">
+                <img src="images/card.svg" alt="Bank Icon" class="icon-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Ajout du fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
